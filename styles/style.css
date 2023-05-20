@@ -1,11 +1,63 @@
 h1 {
   font-family: "Nunito", sans-serif;
   font-weight: bold;
+  font-size: 64px;
+  margin: 62px 0 36px 0;
 }
-
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
 p {
   font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
 }
 i {
-  padding: 10px;
+  padding: 0 15px;
+  margin-top: 3px;
+}
+.hero {
+  display: flex;
+  flex-direction: row;
+  margin: 100px 240px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 52px;
+}
+.hero img {
+  width: 50%;
+  height: 50%;
+  margin-right: 20px;
+}
+.intro {
+  margin-left: 20px;
+}
+.fulliconcontainer {
+  overflow: auto;
+}
+.iconcontainer.first,
+.iconcontainer.second {
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+.iconcontainer img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+}
+p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+.fullhome {
+  background-color: #fef1d9;
+  height: 100%;
 }
