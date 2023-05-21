@@ -47,7 +47,12 @@ img {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.navbar-brand {
+  font-family: var(--header-font);
+  font-weight: bolder;
+}
 .navbar-collapse {
+  font-family: var(--header-font);
   justify-content: end;
 }
 .row:after {
