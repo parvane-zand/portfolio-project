@@ -1,16 +1,21 @@
+:root {
+  --background: #f3f5df;
+  --header-font: "Nunito", sans-serif;
+  --body-font: "Roboto", sans-serif;
+}
 h1 {
-  font-family: "Nunito", sans-serif;
+  font-family: var(--header-font);
   font-weight: bold;
   font-size: 45px;
   margin: 0 0 36px 0;
 }
 h2 {
-  font-family: "Nunito", sans-serif;
+  font-family: var(--header-font);
   font-weight: bold;
   font-size: 18px;
 }
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--body-font);
   font-weight: normal;
   font-size: 18px;
 }
@@ -29,12 +34,12 @@ img {
   border-radius: 12px;
 }
 .first-section {
-  background-color: #f3f5df;
+  background-color: var(--background);
   padding-right: 30px;
   padding-left: 10%;
 }
 .second-section {
-  background-color: #f3f5df;
+  background-color: var(--background);
   padding-left: 30px;
 }
 .column {
