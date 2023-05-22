@@ -67,6 +67,7 @@ img {
 }
 .contact-info {
   background-color: var(--background);
+  border-radius: 12px;
 }
 @media (max-width: 576px) {
   .column {
