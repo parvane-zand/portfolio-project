@@ -13,7 +13,12 @@ h2 {
   font-weight: bold;
   font-size: 18px;
 }
-p {
+h3,h4,h5,h6 {
+  font-family: var(--header-font);
+  font-weight: bold;
+  line-height: 20px;
+}
+p, li {
   font-family: var(--body-font);
   font-weight: normal;
   font-size: 18px;
@@ -57,7 +62,10 @@ img {
   display: table;
   clear: both;
 }
-@media screen and (max-width: 600px) {
+.experience img {
+  width: 50px;
+}
+@media (max-width: 576px) {
   .column {
     width: 100%;
     text-align: center;
@@ -70,5 +78,12 @@ img {
   }
   .projects-section {
     text-align: center;
+  }
+  .experience img {
+    display: none;
+    margin-top: 0;
+  }
+  .experience h4 {
+    margin-top: 0;
   }
 }
