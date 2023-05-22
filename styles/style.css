@@ -13,12 +13,16 @@ h2 {
   font-weight: bold;
   font-size: 18px;
 }
-h3,h4,h5,h6 {
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--header-font);
   font-weight: bold;
   line-height: 20px;
 }
-p, li {
+p,
+.works li {
   font-family: var(--body-font);
   font-weight: normal;
   font-size: 18px;
@@ -31,7 +35,8 @@ i {
   display: flex;
   flex-direction: row;
 }
-img {
+.home img,
+.projects img {
   width: 90%;
   display: block;
   margin: 0 auto;
@@ -45,14 +50,6 @@ img {
 }
 .column {
   width: 50%;
-}
-.navbar-brand {
-  font-family: var(--header-font);
-  font-weight: bolder;
-}
-.navbar-collapse {
-  font-family: var(--header-font);
-  justify-content: end;
 }
 .container img {
   filter: opacity(0.7) drop-shadow(0 0 0 green);
@@ -68,6 +65,38 @@ img {
 .contact-info {
   background-color: var(--background);
   border-radius: 12px;
+}
+.logo {
+  max-height: 60px;
+  border-radius: 12px;
+  padding-left: 10px;
+}
+.brand {
+  font-family: var(--header-font);
+  font-size: 25px;
+  font-weight: bolder;
+  padding-left: 10px;
+  line-height: 50px;
+}
+.navlinks {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.navlinks li {
+  list-style: none;
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+  line-height: 50px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: green;
+  transition: all 100ms ease-in-out;
 }
 @media (max-width: 576px) {
   .column {
@@ -89,5 +118,8 @@ img {
   }
   .experience h4 {
     margin-top: 0;
+  }
+  li {
+    font-size: 12px;
   }
 }
