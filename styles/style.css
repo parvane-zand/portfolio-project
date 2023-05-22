@@ -68,4 +68,7 @@ img {
   .container img {
     display: none;
   }
+  .projects-section {
+    text-align: center;
+  }
 }
