@@ -65,6 +65,9 @@ img {
 .experience img {
   width: 50px;
 }
+.contact-info {
+  background-color: var(--background);
+}
 @media (max-width: 576px) {
   .column {
     width: 100%;
