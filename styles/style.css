@@ -97,10 +97,10 @@ a:hover {
   transition: all 100ms ease-in-out;
 }
 footer {
+  font-family: var(--header-font);
   background-color: var(--background);
   text-align: center;
   font-size: 25px;
-  font-family: var(--body-font);
   font-weight: bold;
 }
 
