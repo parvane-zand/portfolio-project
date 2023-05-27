@@ -53,6 +53,9 @@ p,
 .column {
   width: 50%;
 }
+.row {
+  --bs-gutter-x: 0;
+}
 .row:after {
   content: "";
   display: table;
